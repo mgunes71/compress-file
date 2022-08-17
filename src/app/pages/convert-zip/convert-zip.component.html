@@ -1,0 +1,9 @@
+<div class="mb-3">
+  <label for="formFile" class="form-label">Please upload a file.</label>
+  <input (change)="compressFile($event)" class="form-control" type="file" id="formFile">
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:{{15}}%;"
+       aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+  </div>
+</div>
